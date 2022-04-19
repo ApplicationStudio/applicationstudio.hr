@@ -1,20 +1,91 @@
 <!DOCTYPE html>
-<html>
-	<head>
-		<meta charset="UTF-8" />
-		<meta name="author" content="Mišo Grgur Gluščević" />
-		<title>Application Studio</title>
-		<style>
-			body {
-				min-width: 1285px;
-			}
-		</style>
-	</head>
-	<body>
-		<h1>Dragoj obitelji Klaić,</h1>
-		<p>Želim sve najbolje!<br />
-		I sretan Uskrs!
-		</p>
-		<img src="watercolor-illustration-of-a-rabbit-with-bow-sitting-on-grass-ahead-of-easter-eggs-stock-illustration-easter-bunny-characters-vintage-illustration-i-2B1F1Y8.jpg" />
-	</body>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <!-- material design css -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <!-- fullpage.js css -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.0.5/fullpage.min.css" integrity="sha256-04h4YCjSsnxj8CEs2pl8UvK165Dbt+WAmh4OrhObOCM=" crossorigin="anonymous" />
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+
+    <div id="fullPage">
+
+        <!-- <div class="section section--analytics">
+            <div class="section__title section__title--analytics">
+                <a href="#"><h1>Analysis</h1></a>
+            </div>
+        </div>
+
+        <div class="section section--development">
+            <div class="section__title section__title--development">
+                <a href="#"><h1>Refactoring</h1></a>
+            </div>
+        </div> -->
+
+        <div class="section section--maintenance">
+            <div class="section__title section__title--maintenance">
+                <h1><a href="#">Maintenance</a></h1>
+            </div>
+        </div>
+
+        <div class="section section--contact">
+            <div class="section__title section__title--contact">
+                <h1><a href="#">Contact</a></h1>
+            </div>
+            <div class="section-content section-content--contact">
+                <form action="" autocomplete="off">
+
+                    <!-- name -->
+                    <form-group>
+                        <label for="name">Name:</label>
+                        <input type="text" id="name" size=20 autocomplete="off">
+                    </form-group>
+
+                    <!-- email -->
+                    <form-group>
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" size=20 autocomplete="off">
+                    </form-group>
+
+                    <!-- service type -->
+                    <form-group>
+                        <label for="serviceType">What do you need?</label>
+                        <select id="serviceType" class="form-element-style">
+                            <option value="analysis">Analysis</option>
+                            <option value="refactoring">Refactoring</option>
+                            <option value="maintenance">Maintenance</option>
+                            <option value="other">Other</option>
+                        </select>
+                    </form-group>
+
+                    <!-- description -->
+                    <form-group>
+                        <label for="message">Message:</label>
+                        <textarea name="message" id="message" rows="3" cols="10" class="form-element-style"></textarea>
+                    </form-group>
+
+                    <input type="submit" value="Send"></input>
+                </form>
+            </div>
+        </div>
+
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.0.5/fullpage.min.js" integrity="sha256-C19V3BEZT3jDhm7hctby8ZYhoXDJr0DxagpwB4RIpWc=" crossorigin="anonymous"></script>
+
+    <script>
+        new fullpage('#fullPage', {
+            autoScrolling: true,
+            loopBottom: true,
+            navigation: true,
+            navigationTooltips: ['Analysis', 'Refactoring', 'Maintenance', 'Contact'],
+            showActiveTooltip: true
+        })
+    </script>
+</body>
 </html>

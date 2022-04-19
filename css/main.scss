@@ -1,0 +1,164 @@
+body {
+    font-size: 16px;
+}
+
+h1 {
+    position: relative;
+    font-family: 'Montserrat';
+    text-align: left;
+    font-size: 6rem;
+    color: white;
+}
+
+// sections
+
+.section {
+    position: relative;
+    background-size: cover;
+    display: inline;
+}
+
+.section--analytics {
+    background: url('../img/analytics.jpg');
+    background-size: cover;
+}
+
+.section--development {
+    background: url('../img/development.jpg');
+    background-size: cover;
+}
+
+.section--maintenance {
+    background: url('../img/consulting.jpg');
+    background-size: cover;
+}
+
+.section--contact {
+    background: url('../img/contact.jpg');
+    background-size: cover;
+}
+
+// section title
+
+.section__title {
+    display: inline-block;
+    font-size: 6rem;
+
+    padding-left: 1em;
+    padding-right: 1em;
+
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+}
+
+.section__title > h1 {
+    color:white;
+}
+
+// section title modifiers
+
+.section__title--analytics {
+    margin-left: 1.5em;
+    background-color: rgba(37, 6, 116, 0.9);
+}
+
+.section__title--development {
+    margin-left: 3.5em;
+    background-color: rgba(0, 0, 153, 0.8);
+}
+
+.section__title--maintenance {
+    margin-left: 6em;
+    background-color: rgba(67, 67, 133, 0.9);
+}
+
+.section__title--contact {
+    margin-left: 1em;
+    margin-right: 0.1em;
+    background-color: rgba(67, 67, 133, 0.9);
+
+    // display: flex;
+}
+
+// navigation
+
+span {
+    background: white !important;
+}
+
+// contact section
+
+.section--contact {
+
+    & > .fp-tableCell {
+        display: flex;
+
+        justify-content: left;
+    }
+}
+
+.section--contact {
+    display: flex !important;
+    background-color: rgba(67, 67, 133, 0.9);
+
+    form-group {
+        margin-top: 3em;
+    }
+
+    .form-element-style {
+        background-color: rgba(67, 67, 133, 0.9);
+        color: white;
+    }
+
+    label {
+        // display: block;
+        color: white;
+        padding-left: 1em;
+    }
+
+    input[type=text], input[type=email], select, textarea {
+        width: 100%;
+        display: inline-block;
+        border: 1px solid #ccc;
+        border-radius: 0.5em;
+        box-sizing: border-box;
+        font-size: 1em;
+        padding-left: 1em;
+
+        border: 1px solid rgba(67, 67, 133, 0.9);
+        background-color: transparent;
+    }
+
+    input:-webkit-autofill,
+    input:-webkit-autofill:hover,
+    input:-webkit-autofill:focus,
+    input:-webkit-autofill:active {
+        -webkit-box-shadow: 0 0 0 100px rgba(67, 67, 133, 0.9) inset;
+        -webkit-text-fill-color: white;
+        -webkit-transition-delay: 99999s;
+    }
+
+    textarea {
+        width: 100%;
+        height: 5em;
+        resize: none;
+        font-size: 1em;
+        padding-left: 1em;
+    }
+
+    input[type=submit] {
+        width: 100%;
+        padding: 1em;
+        margin-top: 1em;
+        border: 1px solid rgba(67, 67, 133, 0.9);
+        border-radius: 0.5em; 
+    }
+}
+
+.section-content--contact {
+    background-color: rgba(255, 166, 0, 0.712);
+    padding: 5em;
+    margin-left: 0.1em;
+}

@@ -1,0 +1,27 @@
+.main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 768px;
+  height: 512px;
+  background-color: orange;
+}
+
+.box-middle {
+  width: 256px;
+  margin: 16px 8px 16px 8px;
+  background-color: #3108e7;
+}
+
+.box-left {
+  width: 256px;
+  margin: 16px 8px 16px 16px;
+  background-color: #d1e708;
+}
+
+.box-right {
+  width: 256px;
+  margin: 16px 16px 16px 8px;
+  background-color: #08e7d4;
+}
+/*# sourceMappingURL=test.css.map */

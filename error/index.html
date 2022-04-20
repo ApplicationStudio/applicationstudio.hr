@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Error</title>
+    <!-- material design css -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <!-- fullpage.js css -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.0.5/fullpage.min.css" integrity="sha256-04h4YCjSsnxj8CEs2pl8UvK165Dbt+WAmh4OrhObOCM=" crossorigin="anonymous" />
+    <link rel="stylesheet" href="../css/main.css">
+</head>
+<body>
+
+    <div id="fullPage">
+
+        <div class="section section--maintenance">
+            <div class="section__title section__title--maintenance">
+                <h1><a href="#">Error 404</a></h1>
+            </div>
+        </div>
+
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.0.5/fullpage.min.js" integrity="sha256-C19V3BEZT3jDhm7hctby8ZYhoXDJr0DxagpwB4RIpWc=" crossorigin="anonymous"></script>
+
+    <script>
+        new fullpage('#fullPage', {
+            autoScrolling: true,
+            loopBottom: true,
+            navigation: true,
+            navigationTooltips: ['Analysis', 'Refactoring', 'Maintenance', 'Contact'],
+            showActiveTooltip: false
+        })
+    </script>
+</body>
+</html>

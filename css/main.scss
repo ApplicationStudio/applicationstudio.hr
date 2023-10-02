@@ -12,10 +12,16 @@ h1 {
 
 // sections
 
+.section-wrapper {
+    display: flex;
+    padding: 1rem 0;
+}
+
 .section {
     position: relative;
     background-size: cover;
     display: inline;
+    padding: 0;
 }
 
 .section--analytics {

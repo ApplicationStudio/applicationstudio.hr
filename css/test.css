@@ -1,6 +1,4 @@
 .main {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   width: 768px;
   height: 512px;
@@ -23,5 +21,4 @@
   width: 256px;
   margin: 16px 16px 16px 8px;
   background-color: #08e7d4;
-}
-/*# sourceMappingURL=test.css.map */
+}/*# sourceMappingURL=test.css.map */

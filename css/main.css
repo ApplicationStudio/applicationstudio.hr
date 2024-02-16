@@ -12,7 +12,7 @@ h1 {
 
 .section-wrapper {
   display: flex;
-  padding: 1rem 0;
+  padding: 1rem;
 }
 
 .section {
@@ -99,8 +99,9 @@ span {
   color: white;
 }
 .section--contact label {
-  color: white;
+  color: rgb(1, 19, 16);
   padding-left: 1em;
+  font-size: 16px;
 }
 .section--contact input[type=text], .section--contact input[type=email], .section--contact select, .section--contact textarea {
   width: 100%;

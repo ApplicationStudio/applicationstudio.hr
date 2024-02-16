@@ -43,14 +43,11 @@ h1 {
 }
 
 .section__title {
-  display: inline-block;
-  font-size: 6rem;
-  padding-left: 1em;
-  padding-right: 1em;
-  top: 0px;
-  bottom: 0px;
-  left: 0px;
-  right: 0px;
+  background-color: rgba(67, 67, 133, 0.9);
+  margin-left: 1em;
+  margin-right: 0.1em;
+  padding: 5.5rem;
+  height: calc(100vh - 2rem);
 }
 
 .section__title > h1 {
@@ -67,15 +64,8 @@ h1 {
   background-color: rgba(0, 0, 153, 0.8);
 }
 
-.section__title--maintenance {
-  margin-left: 6em;
-  background-color: rgba(67, 67, 133, 0.9);
-}
-
 .section__title--contact {
-  margin-left: 1em;
-  margin-right: 0.1em;
-  background-color: rgba(67, 67, 133, 0.9);
+  
 }
 
 span {

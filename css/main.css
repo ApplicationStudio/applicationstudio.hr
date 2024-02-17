@@ -32,7 +32,7 @@ h1 {
   background-size: cover;
 }
 
-.section--maintenance {
+.section--services {
   background: url("../img/consulting.jpg");
   background-size: cover;
 }
@@ -46,12 +46,28 @@ h1 {
   background-color: rgba(67, 67, 133, 0.9);
   margin-left: 1em;
   margin-right: 0.1em;
-  padding: 5.5rem;
+  padding: 0 5rem;
   height: calc(100vh - 2rem);
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
 }
 
 .section__title > h1 {
   color: white;
+}
+
+.logo-wrapper {
+  position: relative;
+}
+
+.section__title svg {
+  position: absolute;
+  left: 0;
+  top: 0;
+  /* width: 50px;
+  height: 50px; */
+  
 }
 
 .section__title--analytics {
@@ -64,12 +80,26 @@ h1 {
   background-color: rgba(0, 0, 153, 0.8);
 }
 
-.section__title--contact {
-  
-}
-
 span {
   background: white !important;
+}
+
+.section-content {
+  background-color: rgba(255, 166, 0, 0.712);
+  width: 100%;
+}
+
+.section-content--services {
+  font-size: 3rem;
+  color: #001c2a;
+  padding: 0 1.7rem;
+  font-family:'Courier New', Courier, monospace;
+}
+
+.section-content--services li {
+  margin-bottom: 0.1rem;
+  background-color: #27acef;
+  padding-left: 0.7rem;
 }
 
 .section--contact > .fp-tableCell {
@@ -128,7 +158,6 @@ span {
 }
 
 .section-content--contact {
-  background-color: rgba(255, 166, 0, 0.712);
   padding: 5em;
   margin-left: 0.1em;
 }/*# sourceMappingURL=main.css.map */
